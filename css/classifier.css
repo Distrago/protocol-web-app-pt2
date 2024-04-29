@@ -1,0 +1,1292 @@
+.specification{
+	display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    height: fit-content;
+    margin-top: 40px;
+}
+.specificationRow{
+	display:flex;
+	flex-direction:row;
+	width:-webkit-fill-available;	
+    justify-content: space-between;
+    border-color: gray;
+	align-items:center;
+}
+.rowImage{
+	width:32px;	
+	height:32px;
+	background-size:cover;
+}
+.specificationRowNumber{
+	width:32px;
+	text-align:center;	
+	font-size: 12px;
+	font-weight:bold;
+}
+.nameBlock{
+	width: 140px;
+    text-align: right;
+    font-size: 10px;
+    word-break: break-word;
+}
+.countBlock{
+	width: 32px;
+	text-align:center;
+    font-size:12px;
+	margin-left:12px;
+	border:none;
+	outline:none;
+}
+.priceBlock{
+	width: 12%;
+	text-align:center;
+    font-size:12px;
+	border:none;
+	outline:none;
+	display:flex;
+	justify-content: center;
+}
+.pageMenuBlock{
+	height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    background-color: white;
+    border: solid;
+}
+.pageMenuOption{
+height: fit-content;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    align-items: center;
+    font-size: 12px;	
+}
+.comOfferButton{
+    width: 32px;
+    height: 32px;
+    background-size: 100%;
+    border-width: 0px;
+    margin: 12px;
+	outline: none;
+}
+
+.titleBlock {
+	font-size: 30;
+    margin: 15mm;
+    display: flex;
+    flex-direction: row;
+	height: 20mm;
+	width: 180mm;
+}
+.redLine {
+    background-color: red;
+    height: 52px;
+    width: 4px;
+    margin-right: 30px;
+}
+.a4Title {
+	width: fit-content;
+    color: #4C5666;
+    margin-right: 32px;
+}
+.requestNumber{
+	font-size:16px;
+	border:none;
+	outline:none;
+	color:#5b6579;
+}
+.titleTable{
+    font-size: 12;
+}
+.titleValue{
+	margin-left:12px;
+	text-align:right;
+	border:none;
+	outline:none;
+	color:#5b6579;
+	max-width: 140px;
+}
+.mainRow{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.upsetPart{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.description{
+    font-size: 12px;
+    margin: 3px;
+    font-weight: bold;
+}
+
+.photoComponent {
+	height: 48px;
+    width: 48px;
+    background-image: url(/static/img/result/test.jpg);
+    background-size: 200%;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: white;
+    border-width: 0px;
+    background-position-x: center;
+    background-position-y: center;
+}
+.style{
+    display: flex; 
+    flex-direction: column;
+    width: 86px;
+    margin-bottom: 10;
+}
+.insideRow{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    margin-left: 8;
+	max-width: 190px;
+}
+.componentMainValue{
+    font-size:12px;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	width:100%;
+	height:100%;
+	
+}
+.component{
+	width:100%;
+	scroll-snap-align: end;
+}
+.mainValue{
+    font-size:14px;
+	font-weight:bold;
+}
+.fractionValueDescriptionBlock{
+	display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    width: 262px;
+    justify-content: space-around;
+    margin-left: 8px;
+}
+.componentRequestValue{
+    font-size: 10px;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 12px;
+}
+.requestValue{
+    font-size: 12px;
+    color: gray;
+	border-color: gray;
+	display:none;
+}
+.insideBlock{
+    border-width: 1px;
+    height: 35;
+    margin-right: 2;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+
+}
+.fractionName{
+    margin-top: 12px;
+	margin-bottom: 12px;
+    text-align: center;
+    font-weight: bold;
+	font-size:14px;
+	max-width:188px;
+	height:36px;
+	resize:none;
+	border:0;
+	overflow: hidden;
+	outline:none;
+	color: #4C5666;
+}
+.photoField {
+	border-radius: 2mm;
+    border-width: 1px;
+    height: 128px;
+    width: 128px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+	align-self: center;
+}
+.photoFieldComponent {
+    height: 48px;
+    width: 48px;
+    align-self: center;
+	margin-right: 6px;
+}
+.photo {
+	height: 95%;
+    width: 95%;
+    background-image: url(/static/img/result/test.jpg);
+    background-size: 200%;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: white;
+    background-position-x: center;
+    background-position-y: center;
+}
+.productImg{
+    border-width: 1px;    
+    width: 76;
+    height: 35;
+    margin-left: 10;
+    border-style: solid;
+    border-radius: 2px;
+}
+.rowBlock{
+	display: flex;
+    flex-direction: row;
+    /*align-items: end;*/
+	width:100%;
+}
+.rowNumber{
+	text-align: center;
+    height: 26px;
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: center;
+}
+.elementNumber{
+	width: 26px;
+    height: 26px;
+    border-style: solid;
+    border-width: 1px !important;
+    border-radius: 3px;
+    border-color: white;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-direction: column;
+    background-color: f1f1f1;
+	display:flex;
+}
+.deleteButton{
+	width: 26px;
+    height: 26px;
+    border-style: solid;
+    border-width: 1px !important;
+    border-radius: 3px;
+    border-color: white;
+	display:none;
+	text-align:center;
+	justify-content: center;
+	cursor: pointer;
+	flex-direction:column;
+	background-color:lightslategray;
+	color:white;
+	font-weight:bold;
+	font-size:16;
+	
+}
+.optionControl{
+    border-radius: 3px;
+    display: none;
+    flex-direction: row;
+    margin-bottom: 8px;
+    border: solid;
+    border-width: 1px !important;
+    border-color: white;
+}
+
+.controlInput{
+	display: flex;
+    width: -webkit-fill-available;
+    flex-flow: wrap;
+    background-color: f1f1f1;
+    border-radius: 2px;
+	min-height: 26px;
+}
+.valueInput{
+    width: -webkit-fill-available;
+    flex-flow: wrap;
+    border-radius: 3px;
+    border: solid;
+    border-width: 1px !important;
+    border-color: white;
+}
+
+.controlButton{
+	color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 26px;
+    text-align: center;
+    height: 20px;
+    padding-top: 4px;
+	cursor: pointer;
+	display: block;
+}
+.addOption{
+	display:none;
+	background: lightslategray;
+    height: 26px;
+    border-radius: 2px;	
+}
+.okButton{
+	background: lightslategray;
+    height: 26px;
+    border-radius: 2px;	
+}
+.photoButton{
+	background: lightslategray;
+    height: 26px;
+    border-radius: 2px;	
+}
+
+.addOptionButton{
+	width: 26px;
+    text-align: center;
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    height: 20;
+	color:white;
+	cursor: pointer;
+}
+
+.filterBlock{
+	height: fit-content;
+    width: -webkit-fill-available;
+    text-align: left;
+    font-size: 12px;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inputOption {
+	border-radius: 2px;
+    border-style: solid;
+    border-width: 0px;
+    text-align: left;
+    font-size: 12px;
+    outline: none;
+    width: -webkit-fill-available;
+    align-self: center;
+    color: lightslategray;
+    padding-left: 8px;
+    min-width: 60px;
+    min-height: 26px;
+	cursor: pointer;
+	background-color: #f1f1f1;
+}
+.inputFilter {
+	border-radius: 2px;
+    border-style: solid;
+    border-width: 0px;
+    text-align: left;
+    font-size: 12px;
+    outline: none;
+    width: -webkit-fill-available;
+    align-self: center;
+    color: lightslategray;
+    padding-left: 8px;
+    min-width: 60px;
+    min-height: 26px;
+	background-color: white;
+	border-color: lightslategray;
+    border: solid 1px;
+	margin-right: 2px;
+	cursor:pointer;
+}
+
+.scrollBlock{
+   display: flex;
+    flex-direction: column;
+    height: fit-content;
+    border-style: solid;
+    border-width: 0;
+    text-align: left;
+    font-size: 12px;
+    outline: none;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+    border-radius: 3px;
+    width: -webkit-fill-available;
+    max-height: 112px;
+}
+.inputTitle{
+    font-size: 12px;
+    height: 26px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+	color: lightslategray;
+}
+
+.V{
+	width: 24px;
+    height: 24px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;	
+	font-weight: bold;
+}
+
+.addButton{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size:24;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.scrollRow {
+	width: -webkit-fill-available;
+    height: fit-content;
+    border-style: solid;
+    border-width: 1px !important;
+    border-radius: 3px;
+    border-color: white;
+    text-align: left;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    scroll-snap-align: end;
+    /* display: block; */
+}
+.toggleBlock {
+    width: fit-content;
+    height: fit-content;
+    border-style: solid;
+    border-width: 1px !important;
+    border-radius: 3px;
+    border-color: white;
+    text-align: left;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    scroll-snap-align: center;
+    background-color: white;
+}
+/*выбор листа требований*/
+.dropdownBlock{
+	display:flex;
+	flex-direction:column;
+	margin-top:8px;
+	margin-bottom:8px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 219px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	color: #5b6579;
+	background-color:gainsboro;  
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+
+.scrollBlock::-webkit-scrollbar {
+	width: 24px;
+    border-style: solid;
+    background-color: white;
+}
+
+.scrollBlock::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+    background: lightslategray;
+    border: solid;
+    border-color: white;
+    width: 8px;
+    height: 12px;
+    border-left-width: 8px;
+    border-right-width: 8px;
+	} 
+.scrollBlock::-webkit-scrollbar-track-piece{
+	background: white;
+    width: 12px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.pageBottomBlock{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.headerMain{
+    height: 52px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    width: 210mm;
+    margin-top: -12px;
+}
+.headerTooltip{
+	justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    background-color: white;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+    align-items: center;
+}
+.a4{
+    width: 210mm;
+    background-size: cover;
+    background-color: white;
+    height: 297mm;
+	page-break-after:always;
+	position:relative;
+	size: A4;
+	margin-top: 12px;
+}
+.pageContent{
+	display: flex;
+    flex-direction: column;
+    height: 235mm;
+    margin: 15mm;
+	justify-content: space-between;
+    background-color: white;
+	
+}
+.bottomLogoImage{
+	background-image: url(/static/img/classifier/logo-csort-500x116.png);
+    height: 28px;
+    width: 32mm;
+    background-size: cover;
+}
+.bottomLogoText{
+	width: 120mm;
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.bottomLogo{
+	width:60mm;
+}
+
+.toggle{
+	background-size: contain;
+    height: 24px;
+    width: 24px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+
+
+.settingsButton{
+	height: 24px;
+    width: 24px;
+    border: 0px;
+    align-self: center;
+    margin: 1px;
+    border-radius: 2px;
+    margin-bottom: 0px;
+    background: url(img/calcOn.png) no-repeat;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    background-size: contain;
+	align-self: end;
+}
+
+.inputElement{
+	background-color: white;
+    border-radius: 2px;
+    color: lightslategray;
+    font-size: 12px;
+    border: solid;
+    width: 76px;
+    text-align: center;
+    height: 26px;
+    outline: none;
+    margin-right: 1px !important;
+    border-width: 1px;
+}
+.textareaElement{
+	background-color: white;
+    border-radius: 2px;
+    color: lightslategray;
+    font-size: 12px;
+    border: solid;
+    width: -webkit-fill-available;
+    text-align: center;
+    height: 36px;
+    outline: none;
+    margin: 0 1 0 0;
+    border-width: 1px;
+	resize:none;
+	overflow: hidden;
+    text-align: left;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.unitElement{
+	background-color: white;
+    border-radius: 2px;
+    color: lightslategray;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 60px;
+    text-align: center;
+	height:16px;
+}
+
+
+.wordElement{
+	margin: 1px;
+    border-radius: 2px;
+    color: lightslategray;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    min-height: 14px;
+	cursor: pointer;
+}
+
+.checkBox-custom{
+    background-image: url(img/toggle.png);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+.checkboxBorder{
+    width: 24px;
+    height: 24px;
+    background-image: url(img/toggleUnchecked01.png);
+    background-size: cover;
+    align-self: center;
+    margin: 1px;
+    border-radius: 2px;
+    margin-bottom: 0px;
+}
+
+.photoCheckbox{
+    background-image: url(/static/TestClassifier/img/classifier/slider.png);
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+.photoCheckboxBorder{
+    width: 24px;
+    height: 24px;
+    background-image: url(img/toggleUnchecked01.png);
+    background-size: cover;
+    align-self: center;
+    margin: 1px;
+    border-radius: 2px;
+    margin-bottom: 0px;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  opacity: 0;
+  border-radius: 2px;
+  }
+input[type="checkbox"]:checked {
+      opacity: 1;
+    }
+
+
+.rowOptionBlock{
+	margin-left:8px;
+	flex-grow: 1;
+	max-width: 190px;
+}
+
+
+
+.classifierInput{
+	outline:none;
+	border-width:0px;
+}
+
+.classifierButton {
+	width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: gray;
+    text-align: center;
+    font-size: 12px;
+    align-self: center;
+    margin: 1px;
+	background: url(img/select.png) no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+	outline:none;
+}
+
+.classifierStaticBlock{
+	display: flex;
+    flex-direction: column;
+    height: 30px;
+    border-style: solid;
+    border-width: 0;
+    text-align: left;
+    font-size: 12px;
+    outline: none;
+    width: fit-content;
+    background-color: gainsboro;
+	padding: 2px;
+	margin-top:8px;
+	overflow-y: auto;
+	scroll-snap-type: y mandatory;
+	border-radius: 4px;
+}
+
+.clsOptionToggle{
+	width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    text-align: center;
+    font-size: 12px;
+    align-self: center;
+    margin: 1px;
+}
+	
+
+/*превью(попап) картинок*/
+.overlay1{
+    display: none;
+    position: fixed;
+    background-color: rgba(136, 135, 135, 0.8);
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 62px; 
+    margin-top: -10px;
+    /* flex-direction: column;    */
+}
+.spoiler{
+     display: flex; 
+    justify-content: center; 
+    border: 1px; 
+    border-radius: 4px; 
+    border-color: #5B677D; 
+    width: 500px; 
+    height: 500px; 
+    clip-path: inset(0px 0px 0px 0px);
+}
+#spoilerImg{
+	position: relative; 
+    width: 100%; 
+    object-position: center; 
+    object-fit: cover; 
+    border-radius: 6px; 
+	align-self: center;
+}
+.photomenu{
+	display:flex;
+	background:white;
+	height:fit-content;
+	width:-webkit-fill-available;
+	margin-top: 4px;
+	flex-direction:row;
+	border-radius: 4px;
+}
+.componentRows{
+	max-height: 110mm;
+    overflow-y: scroll;
+    margin-top: 12px;
+    border-top: solid 1px;
+    scroll-snap-type: y mandatory;
+    scroll-snap-stop: always;
+}
+.componentRows::-webkit-scrollbar {
+  display: none;
+}
+.inputElementFraction{
+	background-color: white;
+    border-radius: 2px;
+    font-size: 14px;
+    border: solid;
+    width: -webkit-fill-available;
+    text-align: center;
+    outline: none;
+    border-width: 0px;	
+    font-weight: bold;
+    color: #5b6579;
+}
+input[type="file"] {
+	display:none;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='range'] {
+	width: 100%;
+	-webkit-appearance: none;
+    appearance: none;
+	background-color: #5B677D;
+	outline: none;
+}
+input[type='range']::-webkit-slider-runnable-track {
+	height: 6px;
+	-webkit-appearance: none;
+	color: #F59B34;
+	margin-top: -1px;
+}
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	height: 24;
+	width: 24;
+	background-size:cover;
+	cursor: pointer;
+	background-image:url(/static/TestClassifier/img/classifier/slider.png);
+	margin-top: -8px;
+}
+#sliderBlock{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: fit-content;
+	margin-bottom: 16px;
+}
+.sliderRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -3px;
+    margin-right: -3px;
+    height: 24px;
+    align-items: center;
+	font-size: 14;
+}
+.sliderValue{
+    border: none;
+    outline: none;
+    height: 24px;
+    width:80px;
+    font-size: 20px;
+    color: #5B677D;
+	font-weight: bold;
+}
+.sliderInput{
+	margin-top: 10px;
+    margin-left: 16px;
+}
+.sliderBorder{
+    border: solid;
+    border-bottom: none;
+    height: 48px;
+    border-color: #5B677D;
+    border-width: 1;
+    margin-top: 6px;
+}
+.sliderMinMax{
+    border: none;
+    outline: none;
+    height: 16px;
+    width: 60px;
+    color: #5B677D;
+}
+.sliderMinMaxRow{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	font-size: 12px;
+	color:#5B677D;
+	margin-top: 10px;
+}
+.minMax{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	width: 100px;
+}
+.sliderTypeDescription{
+	width: 80%;
+    font-size: 14px;
+    height: auto;
+}
+select.orangeSelect {
+    background: url(/static/TestClassifier/img/classifier/select.png) no-repeat right;
+    background-size: 20%;
+    font-size: 14px;
+    border: 0px;
+    color: #5B677D;
+    outline: none;
+    width: 150px;
+    padding-right: 32px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 36px;
+	font-family: 'Ubuntu', sans-serif;
+}
+select.orangeSelect:focus {
+  background: url(/static/TestClassifier/img/classifier/select01.png) no-repeat right;
+  background-size: 20%;
+}
+
+option:checked {
+  color: #F59B34;
+  background: url(/static/TestClassifier/img/classifier/select.png) no-repeat right;
+  text-align:right;
+}
+select:first-child{
+  direction: ltr;
+}
+select option{
+  direction: ltr;  
+}
+.typeSelect{
+    height: fit-content;
+    width: 159px;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3px;
+}
+
+
+.lockToggleBlock{
+	display: flex;
+    flex-direction: row;
+    height: 32px;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+	margin-left: 2px;
+}
+.checkBox-custom{
+    background-image: url(/static/TestClassifier/img/classifier/lock.png);
+    background-size: cover;
+    width: 32;
+    height: 32;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+	background-color: white;
+}
+.checkboxBorder{
+	width: 32;
+    height: 32;
+    background-image: url(/static/TestClassifier/img/classifier/lock.png);  
+	background-color:white;
+    background-size: cover;
+	margin-right: 12px;
+}
+input[type="checkbox"] {
+  appearance: none;
+  opacity: 0;
+  }
+input[type="checkbox"]:checked {
+      opacity: 1;
+    }
+	.economicSlider{
+		display:none;
+		flex-direction:column;
+		margin-left: 22px;
+		margin-top: 8px;
+	}
+.legendRow{
+	display:flex;
+	flex-direction:row;
+}	
+.legendBlock{
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}	
+.legendLine{
+	width: 22px;
+    border: solid;
+    border-radius: 0px 0px 0px 6px;
+    border-width: 0 0 3 3;
+    height: 22px;
+    margin-left: 8px;
+    position: absolute;
+}
+.legendDescription{
+	width: -webkit-fill-available;
+    height: 26px;
+    margin: 4px;
+    border: solid 2px;
+    border-radius: 6px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.descriptionRow{
+	display: flex;
+	flex-direction:row;
+	margin-left:6px;
+	font-size: 10px;
+	font-weight:bold;
+	color:white;
+}
+.legendValue{
+	width: fit-content;
+    background: none;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12;
+    font-weight: bold;
+    color: white;
+    text-align: end;
+}
+.legendUnit{
+	margin-left: 6px;
+    margin-right: 6px;
+}
+.chartFractionName{
+	width:-webkit-fill-available;
+}
+.photoRow{
+	display:flex;
+	flex-direction:row;
+	
+}
+.photoLink{
+	width:268px;
+	border:none;
+	cursor:pointer;
+	outline:none;
+}
+.buttonRow{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+}
+.pages{
+	display: flex;
+	flex-direction: column;
+	position:relative;
+	padding-top:54px;
+}
+
+.pageContainer{
+    display: flex; 
+    flex-direction: column;
+}
+.reqSelect{
+	width: 120px;
+    cursor: pointer;
+    height: -webkit-fill-available;
+    padding-top: 6px;
+}
+
+
+@media print{
+	body{
+    background: none;
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	
+	}
+	.space{
+        display: none;
+    }
+	.a4{
+       margin: 0px;
+    }
+	.headerMain{
+		 display: none;
+	}
+	.buttonRow{
+		 display: none;
+	}
+	.overlay1{
+		 display: none;
+	}
+    .crb_link{
+		display: none
+	}
+	.inputElementFraction{
+		background-color:none;
+	}
+	header, footer, aside, nav, form, iframe, .menu, .hero, .adslot {
+		display: none;
+	}
+	.defaultUnit{
+		display: none;
+	}
+	.pages{
+		padding-top:0px;
+	}
+@page {
+  margin: 0mm 0mm 0mm 0mm;
+}
+}
+.crb_link{
+	text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: #5b6579;
+    float: right;
+    font-size: 12px;
+    margin: 8px;
+}
+
+/*Калькулятор для Аппаратов*/
+.CalcMainWindow{
+    display: none;
+    position: fixed;
+    background-color: rgba(136, 135, 135, 0.8);
+    z-index: 50;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 62px; 
+    margin-top: -10px;   
+}
+.calculator{
+    display: flex; 
+    flex-direction: column;  
+    width: 600px;
+    height: 200px; 
+    justify-content: center;
+    background-color: white;
+    border: 1px;
+    border-radius: 20px;
+    border-color: #5B677D;
+    margin-top: 100px;    
+}
+.calcReadyButton{
+    margin-left: auto;
+    margin-right: 0.2em;
+    height: 20px;
+}
+.Selector{
+    height: fit-content;
+    width: 150px;
+    background-size: contain;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3px;
+    margin-left: 20px;
+}
+select.orangeSelect {
+    background: url(/static/img/kpApparatus/select.png) no-repeat right;
+    background-size: 20%;
+    font-size: 14px;
+    border: 0px;
+    color: #5B677D;
+    outline: none;
+    width: 150px;
+    padding-right: 32px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 36px;
+	font-family: 'Ubuntu', sans-serif;
+}
+select.orangeSelect:focus {
+  background: url(/static/img/kpApparatus/select01.png) no-repeat right;
+  background-size: 20%;
+}
+option:checked {
+    color: #F59B34;
+    background: url(/static/img/kpApparatus/select.png) no-repeat right;
+    text-align:right;
+}
+select:first-child{
+    direction: ltr;
+}
+select option{
+    direction: ltr;  
+}
+
+.orangeButton{
+	background-color: orange;
+    height: 26px;
+    width: 84px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    border-width: 0px;	
+}

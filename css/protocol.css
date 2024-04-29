@@ -1,0 +1,1375 @@
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.headerMain{
+	height: 58px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    width: -webkit-fill-available;
+    margin-top: -12px;
+    margin-left: -16px;
+}
+.headerTooltip{
+	justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: -webkit-fill-available;
+    max-width: 500px;
+    height: -webkit-fill-available;
+    background-color: white;
+    padding-top: 13px;
+     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.main {
+	width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	
+}
+.displayBlock{
+	position: fixed;
+	background: white;
+	height: -webkit-fill-available;
+	width: -webkit-fill-available;
+	opacity: 0.5;
+	z-index: 0;
+}
+.pages {
+	display:flex;
+	flex-direction:column;
+	width: -webkit-fill-available;
+    max-width: 500px;
+	margin-top: 52px;
+	
+}
+.protocolPage {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    height: fit-content;
+    width: -webkit-fill-available;
+    max-width: 800px;
+	min-width: 468px;
+}
+.protocol{
+	 width: -webkit-fill-available;
+}
+.addSourceSorting{
+	font-size: 12;
+    margin-right: 20px;
+}
+.requestFraction{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	margin-left: 4px;
+	margin-right:4px;
+}
+.requestPage {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    height: fit-content;
+    width: -webkit-fill-available;
+    max-width: 800px;
+	min-width: 468px;
+	margin-bottom: 12px;
+	
+}
+
+.mainPage {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    height: fit-content;
+    width: -webkit-fill-available;
+    max-width: 800px;
+	min-width: 468px;
+	
+}
+.SearchPage {
+	position: relative;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    height: fit-content;
+    width: -webkit-fill-available;
+    max-width: 800px;
+	min-width: 468px;
+}
+.protocolSettings {
+	
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: -webkit-fill-available;
+}
+
+.mainBlock {
+	margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: -webkit-fill-available;
+}
+
+.source {
+	margin-left: 4px;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: -webkit-fill-available;
+}
+.accept {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: -webkit-fill-available;
+	margin: 4px;
+}
+.reject {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:-webkit-fill-available;
+	margin: 4px;
+}
+.SortingComponents{
+	display: flex;
+    flex-direction: row;
+    margin: 4px;
+    border-radius: 8px;
+}
+.SortingSettings {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 8px;
+    height: fit-content;
+    width: -webkit-fill-available;
+	margin: 4px;
+    background: gray;
+	
+}
+.SortingBlock{
+	flex-direction:column;
+}
+
+.complexBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 0px;
+	border-color: gray;
+    border-radius: 8px;
+	height: fit-content;
+	width: -webkit-fill-available;
+	margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.classifierBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 8px;
+    width: -webkit-fill-available;
+    margin-top: 8px;
+    margin-bottom: 4px;
+	padding: 4px;
+}
+.productClassifierBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 8px;
+    width: -webkit-fill-available;
+    margin-top: 8px;
+    margin-bottom: 4px;
+	padding: 4px;
+}
+
+.fractionBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border-style: solid;
+    border-width: 1px;
+	border-color: gray;
+    border-radius: 8px;
+	height: fit-content;
+	width: -webkit-fill-available;
+	background: gray;
+	margin-bottom: 4px;
+}
+.protocolBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+	border-color: gray;
+    border-radius: 8px;
+	height: fit-content;
+	width: -webkit-fill-available;
+	background: gray;
+	margin: 4px;
+}
+.requestBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border-style: solid;
+    border-width: 1px;
+	border-color: gray;
+    border-radius: 8px;
+	height: fit-content;
+	width: -webkit-fill-available;
+	background: gray;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.compactFractionBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 8px;
+    height: fit-content;
+    width: -webkit-fill-available;
+    background: gray;
+    margin: 4px;
+}
+.addSorceBlock{
+	display: none;
+    flex-direction: column;
+    border-radius: 6px;
+    height: fit-content;
+    width: -webkit-fill-available;
+    margin: 2px;
+	background: white;
+}
+.infoBlock{
+	border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 6px;
+    width: -webkit-fill-available;
+    height: 336px;
+    margin: 4px;
+}
+.productInfoBlock{
+	border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 6px;
+    width: -webkit-fill-available;
+    height: 336px;
+    margin: 4px;
+}
+.addPhotoBlock{
+	display: none;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    background: gray;
+	padding-left: 4px
+}
+.item_addPhotoBlock{
+	display: none;
+    flex-direction: row;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 4px;
+    margin-bottom: 4px;
+	padding-left: 4px
+}
+.numberBlock{
+	display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+}
+.deleteBlockButton {
+	width: 26px;
+	height: 26px;
+	border-radius: 6px;
+    margin-right: 4px;
+    margin-left: 2px;
+	margin-top: 4px;
+    margin-bottom: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+}
+.addNameButton {
+	width: 26px;
+	height: 26px;
+	border-radius: 6px;
+    margin-right: 4px;
+    margin-left: 4px;
+	margin-top: 4px;
+    margin-bottom: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+}
+.deletePhotoButton {
+	width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+    align-self: center;
+}
+.number {
+	width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.classifierInputBlock {
+	display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin-right: 2px;
+    border-radius: 8px;
+    border-width: 0px;
+	align-self: flex-start;
+	height: 454px;
+}
+.inputBlock{
+	display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: -webkit-fill-available;
+    border-radius: 8px;
+    border-width: 0px;
+	align-self: flex-end;
+}
+.compactInputBlock{
+	display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 8px;
+    border-width: 0px;
+	background-color: grey;
+}
+.capacityBlock{
+	display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 8px;
+    border-width: 0px;
+	margin-right: 2px;
+}
+.inputRow{
+	display: flex;
+    flex-direction: row;
+    height: 26;
+    margin-left: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+    align-items: center;
+	justify-content: flex-end;
+	margin-right: 2px;
+}
+
+.inputRowFractionName{
+	display: flex;
+    flex-direction: row;
+    height: 20px;
+    margin-left: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+    align-items: center;
+	justify-content: flex-end;
+	margin-right: 2px;
+}
+.controlRow{
+	display: flex;
+    flex-direction: row;
+    height: 30px;
+    margin-left: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 2px;
+}
+.inputRowSource{
+	display: flex;
+    flex-direction: row;
+    height: 32px;
+    border-radius: 6px;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: flex-end;
+   
+}
+.inputRowProgram{
+	display: flex;
+    flex-direction: row;
+    height: 32px;
+    border-radius: 6px;
+    align-items: center;
+    width: -webkit-fill-available;
+    justify-content: flex-end;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+}
+.fileName{
+	width: 186px;
+    height: 26px;
+    border-radius: 4px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+.fileLink{
+	width: 216px;
+    height: 26px;
+    border-radius: 4px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+.programBlock{
+	display:flex;
+	flex-direction: column;
+}
+
+.inputRowLabel{
+	display: flex;
+    flex-direction: row;
+    height: 12px;
+    margin-left: 2px;
+    margin-top: 1px;
+    border-radius: 6px;
+    align-items: center;
+	justify-content: flex-start;
+}
+.inputRowUnits{
+	display: flex;
+    flex-direction: row;
+    height: 12px;
+    margin-left: 2px;
+    border-radius: 6px;
+    align-items: center;
+	justify-content: flex-end;
+}
+.InputSelectLabel {
+	width: 150px;
+    height: 12px;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: gray;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background: gray;
+}
+.capacityLabel {
+	width: 150px;
+    height: 12px;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: gray;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background: gray;
+}
+.inputRowSlider{
+	display: flex;
+    flex-direction: row;
+    height: 26;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+    align-items: center;
+}
+.inputCapacitySlider{
+	display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin-left: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-radius: 6px;
+    align-items: center;
+}
+.fractionInput {
+	display: flex;
+    align-self: flex-end;
+}
+
+.fixedSize {
+	display: flex;
+	align-items: center;
+}
+.unitSelect{
+	width: 88px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+}
+.SortingSelect {
+	width: 218px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+}
+.SortingLabel {
+	width: 110px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+    background-color: gray;
+    color: white;
+	font-size: 12px;
+	text-align: center;
+	
+}
+
+.FractionSelect {
+	width: 216px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+}
+.requestFractionSelect {
+	width: 138px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+}
+
+.SourceLabel{
+	width: 142px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+	padding-left: 10px;
+	text-align: center;
+}
+.requestIdLabel{
+	width: -webkit-fill-available;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+	padding-left: 22px;
+	text-align: left;
+}
+.protocolLabel {
+	width: 152px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+    font-size: 12px;
+}
+.SourceSelect{
+	width: 188px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+}
+.SourceFractions{
+	width: 216px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-right: 2px;
+}
+
+.addComponent{
+	width: 220px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin: 4px;
+	align-self: flex-end;
+}
+.apply{
+	width: -webkit-fill-available;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin: 4px;
+	align-self: flex-end;
+}
+
+.valueInput{
+	width: 60px;
+	height: 26px;
+	border-radius: 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-style:solid;
+	border-width:1px;
+	border-color:gray;
+	text-align: center
+}
+.valueFraction{
+	width: 68px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    text-align: center;
+    background: gray;
+    color: white;
+}
+
+.valueFractionInteractible{
+	width: 68px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    text-align: center;
+    background: white;
+    color: black;
+	 
+}
+
+.fractionSettings{
+	margin-right: 2px;
+}
+.sourceName {
+	width: 102px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    text-align: center;
+    font-size: 12;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4px;
+    background: gray;
+    justify-content: space-between;
+}
+.firstSourceName {
+	width: 214px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    text-align: center;
+    font-size: 12;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 4px;
+    background: gray;
+    justify-content: space-between;
+}
+.valueInputLabel{
+	width: 60px;
+    height: 12px;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: gray;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background: gray;
+}
+.valueFractionLabel{
+	width: 68px;
+    height: 12px;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: gray;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background: gray;
+}
+.sortingSourceText{
+	width: -webkit-fill-available;
+    height: 26px;
+    border-radius: 4px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: gray;
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    background: gray;
+    margin-left: 4px;
+}
+.textInput{
+	width: -webkit-fill-available;
+    height: 26px;
+    border-radius: 4px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 2px;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.photoSize{
+	width: inherit;
+	height: inherit;
+	align-self: center;
+}
+
+.photoSize > img {
+	width: 60px;
+	height: 60px;
+	object-fit: cover;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 0px;
+    border-color: gray;
+}
+
+.toggleBlock {
+	display: flex;
+    width: 60px;
+    margin-left: 2px;
+    margin-right: 2px;
+    justify-content: space-around;
+}
+.menuButton{
+	width: 60px;
+    height: 26px;
+    border-radius: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    text-align: center;
+	font-size: 9px;
+}
+.mainPhotoButton {
+	width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+    justify-content: center;
+	display: flex;
+	padding: 0px;
+}
+.addPhotoButton {
+	width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+	display: flex;
+}
+.categoryButton{
+	height: 26px;
+    width: 26px;
+    border-radius: 6px;
+    margin-right: 2px;
+    margin-left: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+}
+.categorySize {
+	width: 26px;
+}
+.line{
+	width: 2px;
+    height: 60px;
+    background-color: gray;
+}
+.classifierLine {
+	width: 2px;
+    height: 282px;
+    background-color: gray;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+.classifier {
+	width: -webkit-fill-available;
+}
+.productClassifierLine {
+	width: 2px;
+    height: 438px;
+    background-color: gray;
+    margin-right: 4px;
+    margin-left: 2px;
+}
+.fractionLine{
+	width: -webkit-fill-available;
+    background: white;
+    height: 0px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.fractionLabel{
+	color: white;
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-left: 2px;
+    font-weight: bold;
+}
+.requestFractionLabel{
+	
+    font-size: 14px;
+	width: 108px;
+    margin-left: 2px;
+	text-align: center;
+   
+}
+.photoLine{
+	width: 0mm;
+    height: 60px;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 4px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.components {
+    display: flex;
+	align-items: flex-end;
+    flex-direction: column;
+	width:-webkit-fill-available;
+}
+.empty {
+	height: 4px;
+}
+
+.fractionEmpty {
+	width: -webkit-fill-available;
+    text-align: center;
+    font-size: 14px;
+}
+.classLabel{
+	width: 128px;
+    border-radius: 4px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: gray;
+    margin-left: 12px;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+	height: 14px;
+}
+
+.classSelect{
+	width: 204px;
+    height: 26px;
+    border-radius: 4px;
+    margin-right: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+.addClassInput{
+	width: 204px;
+    height: 26px;
+    border-radius: 4px;
+    margin-right: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+.fractionComment{
+	height: 60px;
+    margin: 4px;
+    border-radius: 4px;
+    align-self: flex-end;
+    width: -webkit-fill-available;
+    -webkit-appearance: none;
+    display: flex;
+    resize: none;
+}
+
+
+input[type=range] {
+  -webkit-appearance: none;
+   width: -webkit-fill-available;
+   display: block;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 1px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #343c4b;
+  border-radius: 1px;
+  border: 0px solid rgba(0, 0, 0, 0);
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 1px solid gray;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -12px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #667693;
+  outline: 0;
+  outline-offset: 0;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #343c4b;
+  border-radius: 1px;
+  border: 0px solid rgba(0, 0, 0, 0);
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 4px solid #f2996c;
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #020203;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-fill-upper {
+  background: #343c4b;
+  border: 0px solid rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  border: 2px solid #f2996c;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  cursor: pointer;
+  height: 4px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #343c4b;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #667693;
+}
+
+
+
+
+.productInput {
+	width: 180px;
+    height: 26px;
+    border-radius: 4px;
+    margin-right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    margin-left: 2px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.requestMenuButton{
+	width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.requestLine{
+	width: 2px;
+    height: 60px;
+    background-color: white;
+	margin-bottom: 4px;
+}
+.requestLabel{
+	-webkit-writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 10;
+    text-align: left;
+	color:white;
+    margin-left: 8px;
+	width: 26px;
+	margin-bottom: 4px;
+}
+.acceptLabel{
+	font-size: 14;
+    margin-right: 22px;
+}
+.rejectLabel{
+	font-size: 14;
+    margin-right: 22px;
+}
+.nameBlock{
+	display: flex;
+    height: fit-content;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    margin-top: 4px;
+}
+.protocolName{
+	margin-left:44px;
+	font-size: 12px;
+	margin-bottom:-10px;
+}
+.outlineBlock{
+	border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    width: -webkit-fill-available;
+}
+.overlay_wait {
+	display: none;
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 50;
+	height: 100%;
+	width: 100%;
+	max-width: 500px;
+	justify-content: center;
+	padding-top: 30%;
+	margin-top: -20px;
+}
+.overlay_wait > div:nth-child(1){
+	text-align: center;
+}
+.acceptRejectToggle[type="checkbox"]{
+  -webkit-appearance: none;
+  background-image: url(/static/img/reject.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.acceptRejectToggle[type="checkbox"]:checked{
+  -webkit-appearance: none;
+  background-image: url(/static/img/accept.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.impToggle[type="checkbox"]{
+  -webkit-appearance: none;
+  background-image: url(/static/img/impOff.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.impToggle[type="checkbox"]:checked{
+  -webkit-appearance: none;
+  background-image: url(/static/img/impOn.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.calcToggle[type="checkbox"]{
+  -webkit-appearance: none;
+  background-image: url(/static/img/calcOff.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.calcToggle[type="checkbox"]:checked{
+  -webkit-appearance: none;
+  background-image: url(/static/img/calcOn.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.regToggle[type="checkbox"]{
+  -webkit-appearance: none;
+  background-image: url(/static/img/regOff.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.regToggle[type="checkbox"]:checked{
+  -webkit-appearance: none;
+  background-image: url(/static/img/regOn.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.expToggle[type="checkbox"]{
+  -webkit-appearance: none;
+  background-image: url(/static/img/dawn.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
+.expToggle[type="checkbox"]:checked{
+  -webkit-appearance: none;
+  background-image: url(/static/img/up.png);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: cover;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: gray;
+  outline: none;
+}
